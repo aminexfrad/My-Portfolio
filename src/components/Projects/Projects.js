@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import chatify from "../../Assets/Projects/chatify.png";
+import Beprocess from "../../Assets/Projects/beprocess.png";
 import ecomind from "../../Assets/Projects/ecomind.png";
 import eventify from "../../Assets/Projects/eventify.png";
 import leave from "../../Assets/Projects/leave.png";
@@ -21,10 +21,10 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={chatify}
+              imgPath={Beprocess}
               isBlog={false}
-              title="Rekcha"
-              description="The Personal Chat Room or Workspace is a web application designed to provide users with a seamless platform to communicate, share resources, and collaborate in real-time. "
+              title="BeProcess"
+              description="This project is a Role Based Authorization system built using Angular and JSON Server. Users can sign up and log in, but new accounts require admin approval before they can log in and is fully responsive."
               ghLink="https://github.com"
               demoLink="https://.web.app/"
             />
@@ -34,7 +34,7 @@ function Projects() {
               imgPath={leave}
               isBlog={false}
               title="Zouari Conge"
-              description="Leave and request management web application with three user roles (Employee, HR,Department Approver)"
+              description="Leave and request management web application with three user roles (Employee, HR,Department Approver) using PHP"
             />
           </Col>
 
