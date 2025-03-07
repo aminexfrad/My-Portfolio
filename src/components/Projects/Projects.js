@@ -34,7 +34,7 @@ function Projects() {
               imgPath={leave}
               isBlog={false}
               title="Zouari Conge"
-              description="Leave and request management applicationa web application with three user roles (Employee, HR,Department Approver)"
+              description="Leave and request management web application with three user roles (Employee, HR,Department Approver)"
             />
           </Col>
 
