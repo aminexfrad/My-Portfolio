@@ -7,29 +7,21 @@ function AboutCard() {
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
-            Congratulations, you found me! <br />
-            I am <span className="purple">Mohamed Amine FRAD </span> from{" "}
-            <span className="purple">Sousse, Tunisia.</span>
-            <br />
-             I’m currently working on web development technologies like{" "}
-            <span className="purple">Spring Boot, Angular, React</span>, etc.
-            <br />
-             I’m currently learning{" "}
-            <span className="purple">JAVA</span> and another language 😅.
-            <br />
-            Future Goals: Learn more technologies and never stop creating
-            new ideas.
+          <p className="about-fade-in" style={{ textAlign: "justify" }}>
+            🌟 Greetings, fellow dreamer! I'm <span className="purple about-glow">Mohamed Amine FRAD</span>, a digital sorcerer from the enchanted city of <span className="purple about-glow">Sousse, Tunisia</span>.<br />
+            ✨ My tale begins in the mystical realm of imagination, where I discovered the ancient art of transforming dreams into digital reality. With every line of code, I cast spells that bring websites to life.<br />
+            🎨 I am a master of the digital arts, blending creativity with technology to craft experiences that spark wonder and inspire action. My tools? Imagination, innovation, and an unquenchable thirst for creating the extraordinary.<br />
+            🌟 My mission: to transform the digital landscape into a realm of endless possibilities, where every interaction tells a story and every pixel holds magic.
           </p>
           <br />
           <ul>
-            <li className="about-activity">
+            <li className="about-activity about-activity-animate">
               <ImPointRight /> Playing Games
             </li>
-            <li className="about-activity">
+            <li className="about-activity about-activity-animate">
               <ImPointRight /> Writing Tech Blogs
             </li>
-            <li className="about-activity">
+            <li className="about-activity about-activity-animate">
               <ImPointRight /> Travelling
             </li>
           </ul>

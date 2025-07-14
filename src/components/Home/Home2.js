@@ -4,8 +4,6 @@ import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
-  AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -16,40 +14,16 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              WELCOME TO MY <span className="purple special-text"> DIGITAL REALM </span>
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br />
-              <br />I am fluent in classics like
-              <i>
-                <b className="purple"> Java, PHP, and Python. </b>
-              </i>
+              ✨ In a world where pixels dance and code sings, I craft digital experiences that transcend the ordinary. Every line of code is a brushstroke, every interaction a spell cast upon the digital canvas.
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
-              </i>
+              🌟 My journey began in the mystical lands of Sousse, where I discovered the ancient art of turning imagination into reality. Through the sacred languages of HTML, CSS, and JavaScript, I weave spells that bring websites to life.
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js, Angular, and Next.js</b>
-              </i>
+              🚀 Today, I stand as a guardian of the digital realm, creating portals that connect dreams to reality. Each project is a new adventure, every challenge a puzzle waiting to be solved with creativity and innovation.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -60,9 +34,10 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
+            <h1>LET'S CREATE MAGIC TOGETHER</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
+              ✨ Ready to embark on a digital adventure? Let's weave spells of creativity and innovation together.<br />
+              🌟 Have a vision, a dream, or a story to tell? I'll help you bring it to life in the digital realm.
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">

@@ -2,20 +2,23 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
+import AnimatedBackground from "../AnimatedBackground";
 import Beprocess from "../../Assets/Projects/beprocess.png";
 import ecomind from "../../Assets/Projects/ecomind.png";
 import eventify from "../../Assets/Projects/eventify.png";
 import leave from "../../Assets/Projects/leave.png";
 import CodePlayground from "../../Assets/Projects/CodePlayground.png";
+
 function Projects() {
   return (
     <Container fluid className="project-section">
+      <AnimatedBackground enabled={true} />
       <Particle />
       <Container>
-        <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+        <h1 className="project-heading text-fade-in">
+          My Recent <strong className="text-gradient">Works </strong>
         </h1>
-        <p style={{ color: "white" }}>
+        <p className="subheading-modern text-center text-loading" style={{ marginBottom: "3rem" }}>
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>

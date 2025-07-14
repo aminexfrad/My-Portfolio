@@ -51,7 +51,7 @@ const OptimizedImage = ({
         observer.unobserve(imageRef);
       }
     };
-  }, [src, imageSrc, imageRef]);
+  }, [src, imageSrc, imageRef, placeholder]);
 
   return (
     <img

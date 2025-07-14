@@ -4,7 +4,6 @@ import {
   SiVisualstudiocode,
   SiPostman,
   SiIntellijidea,
-  SiWamp,
   SiFilezilla,
   SiWindows,
   SiGit,

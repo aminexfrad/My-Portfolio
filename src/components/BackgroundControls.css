@@ -1,0 +1,122 @@
+/* Background Controls Styles */
+.background-controls {
+  position: relative;
+  display: inline-block;
+}
+
+.control-toggle-btn {
+  background: rgba(135, 206, 250, 0.1);
+  border: 1px solid rgba(135, 206, 250, 0.3);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  color: #87ceeb;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  backdrop-filter: blur(10px);
+}
+
+.control-toggle-btn:hover {
+  background: rgba(135, 206, 250, 0.2);
+  border-color: rgba(135, 206, 250, 0.5);
+  transform: scale(1.1);
+}
+
+.control-panel {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  margin-top: 10px;
+  background: rgba(26, 31, 58, 0.95);
+  border: 1px solid rgba(135, 206, 250, 0.2);
+  border-radius: 12px;
+  padding: 20px;
+  min-width: 250px;
+  backdrop-filter: blur(15px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  animation: slideIn 0.3s ease-out;
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.control-section {
+  margin-bottom: 20px;
+}
+
+.control-section:last-child {
+  margin-bottom: 0;
+}
+
+.control-section h6 {
+  color: #87ceeb;
+  margin-bottom: 10px;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.control-btn {
+  background: rgba(135, 206, 250, 0.1);
+  border: 1px solid rgba(135, 206, 250, 0.2);
+  border-radius: 6px;
+  padding: 8px 12px;
+  color: #87ceeb;
+  font-size: 12px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin: 2px;
+}
+
+.control-btn:hover {
+  background: rgba(135, 206, 250, 0.2);
+  border-color: rgba(135, 206, 250, 0.4);
+}
+
+.control-btn.active {
+  background: rgba(135, 206, 250, 0.3);
+  border-color: rgba(135, 206, 250, 0.6);
+  color: white;
+  box-shadow: 0 0 10px rgba(135, 206, 250, 0.3);
+}
+
+.intensity-buttons {
+  display: flex;
+  gap: 5px;
+}
+
+.element-toggles {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px;
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .control-panel {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 280px;
+    max-width: 90vw;
+  }
+  
+  .element-toggles {
+    grid-template-columns: 1fr;
+  }
+} 
