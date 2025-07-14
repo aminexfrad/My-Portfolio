@@ -4,6 +4,7 @@ import homeLogo from "../../Assets/home-main.png";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+import OptimizedImage from "../OptimizedImage";
 
 function Home() {
   return (
@@ -31,7 +32,7 @@ function Home() {
             </Col>
 
             <Col md={5} style={{ paddingBottom: 20 }}>
-              <img
+              <OptimizedImage
                 src={homeLogo}
                 alt="home pic"
                 className="img-fluid"

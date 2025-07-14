@@ -8,7 +8,7 @@ function Particle() {
       params={{
         particles: {
           number: {
-            value: 160,
+            value: 80, // Reduced from 160 to 80 for better performance
             density: {
               enable: true,
               value_area: 1500,
@@ -20,7 +20,7 @@ function Particle() {
           },
           move: {
             direction: "right",
-            speed: 0.05,
+            speed: 0.03, // Reduced from 0.05 to 0.03
           },
           size: {
             value: 1,
@@ -28,7 +28,7 @@ function Particle() {
           opacity: {
             anim: {
               enable: true,
-              speed: 1,
+              speed: 0.5, // Reduced from 1 to 0.5
               opacity_min: 0.05,
             },
           },
@@ -36,7 +36,7 @@ function Particle() {
         interactivity: {
           events: {
             onclick: {
-              enable: true,
+              enable: false, // Disabled for better performance
               mode: "push",
             },
           },
@@ -46,7 +46,11 @@ function Particle() {
             },
           },
         },
-        retina_detect: true,
+        retina_detect: false, // Disabled for better performance
+        fps_limit: 30, // Added FPS limit
+        background: {
+          color: "transparent",
+        },
       }}
     />
   );
