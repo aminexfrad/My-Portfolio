@@ -28,10 +28,10 @@ function ResumeNew() {
         <Row style={{ justifyContent: "center", marginBottom: "2rem" }}>
           <Col md={10} className="text-center">
             <h1 className="heading-modern text-fade-in" style={{ marginBottom: "1rem" }}>
-              My <strong className="text-gradient">PFE</strong>
+              My <strong className="text-gradient">CV</strong>
             </h1>
             <p className="subheading-modern text-loading">
-              Download or view my final year project (PFE) below.
+              Download or view my Curriculum Vitae below.
             </p>
             <a
               href="/CV_Mohamed_Amine_FRAD.pdf"
@@ -39,7 +39,7 @@ function ResumeNew() {
               className="btn btn-primary mt-3"
             >
               <AiOutlineDownload className="me-2" />
-              Download PFE
+              Download CV
             </a>
           </Col>
         </Row>
@@ -57,7 +57,7 @@ function ResumeNew() {
                         <div className="spinner-border text-primary" role="status">
                           <span className="visually-hidden">Loading...</span>
                         </div>
-                        <p className="mt-3 text-muted">Loading PFE...</p>
+                        <p className="mt-3 text-muted">Loading CV...</p>
                       </div>
                     }
                   >
