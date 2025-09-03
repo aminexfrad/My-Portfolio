@@ -1,5 +1,6 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 import {
   AiFillGithub,
@@ -25,14 +26,18 @@ function Home2() {
               🚀 Today, I stand as a guardian of the digital realm, creating portals that connect dreams to reality. Each project is a new adventure, every challenge a puzzle waiting to be solved with creativity and innovation.
             </p>
           </Col>
-          {/* Avatar section removed */}
+          <Col md={4} className="myAvtar">
+            <Tilt>
+              <img src={myImg} className="img-fluid" alt="avatar" />
+            </Tilt>
+          </Col>
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>LET'S WEAVE DIGITAL MAGIC</h1>
+            <h1>LET'S CREATE MAGIC TOGETHER</h1>
             <p>
-              ✨ Ready to transform your vision into digital reality? Let's create something extraordinary together.<br />
-              🌟 Whether you have a dream to share or a story to tell, I'll help you bring it to life in ways that captivate and inspire.
+              ✨ Ready to embark on a digital adventure? Let's weave spells of creativity and innovation together.<br />
+              🌟 Have a vision, a dream, or a story to tell? I'll help you bring it to life in the digital realm.
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">

@@ -5,9 +5,17 @@ function Type() {
   return (
     <Typewriter
       options={{
-        strings: [,
-          "Full-Stack Developer",
-          
+        strings: [
+          "Digital Dreamweaver",
+          "Code Alchemist",
+          "Pixel Sorcerer",
+          "Web Whisperer",
+          "Digital Architect",
+          "Creative Technomancer",
+          "Interface Wizard",
+          "Digital Storyteller",
+          "Code Poet",
+          "Digital Artisan"
         ],
         autoStart: true,
         loop: true,

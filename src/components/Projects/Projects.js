@@ -16,10 +16,10 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading text-fade-in">
-          Digital <strong className="text-gradient">Innovations</strong>
+          My Recent <strong className="text-gradient">Works </strong>
         </h1>
         <p className="subheading-modern text-center text-loading" style={{ marginBottom: "3rem" }}>
-          Explore my portfolio of transformative digital experiences.
+          Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
@@ -27,7 +27,7 @@ function Projects() {
               imgPath={Beprocess}
               isBlog={false}
               title="BeProcess"
-              description="A sophisticated access control ecosystem powered by Angular, featuring intelligent role-based authentication. This system orchestrates seamless user management with elegant admin oversight and responsive design."
+              description="This project is a Role Based Authorization system built using Angular and JSON Server. Users can sign up and log in, but new accounts require admin approval before they can log in and is fully responsive."
               ghLink="https://github.com"
               demoLink="https://.web.app/"
             />
@@ -37,7 +37,7 @@ function Projects() {
               imgPath={leave}
               isBlog={false}
               title="Zouari Conge"
-              description="An intelligent workforce management platform that streamlines leave requests through a sophisticated three-tier approval system. Built with PHP, it orchestrates seamless collaboration between employees, HR, and department approvers."
+              description="Leave and request management web application with three user roles (Employee, HR,Department Approver) using PHP"
             />
           </Col>
 
