@@ -5,7 +5,6 @@ import AnimatedBackground from "../AnimatedBackground";
 import Github from "./Github";
 import Techstack from "./Techstack";
 import Aboutcard from "./AboutCard";
-import laptopImg from "../../Assets/about.png";
 import Toolstack from "./Toolstack";
 import OptimizedImage from "../OptimizedImage";
 
@@ -25,17 +24,11 @@ function About() {
             }}
           >
             <h1 className="heading-modern text-fade-in" style={{ paddingBottom: "20px" }}>
-               <strong className="text-gradient">Welcome to my little corner of the internet.</strong>
+               <strong className="text-gradient">Welcome to My Digital Innovation Space</strong>
             </h1>
             <Aboutcard />
           </Col>
-          <Col
-            md={5}
-            style={{ paddingTop: "120px", paddingBottom: "50px" }}
-            className="about-img"
-          >
-            <OptimizedImage src={laptopImg} alt="about" className="img-fluid" />
-          </Col>
+          {/* About image section removed */}
         </Row>
         <h1 className="project-heading text-fade-in">
           Professional <strong className="text-gradient">Skillset </strong>
